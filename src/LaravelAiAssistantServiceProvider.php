@@ -2,9 +2,9 @@
 
 namespace Arseno25\LaravelAiAssistant;
 
+use Arseno25\LaravelAiAssistant\Commands\LaravelAiAssistantCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Arseno25\LaravelAiAssistant\Commands\LaravelAiAssistantCommand;
 
 class LaravelAiAssistantServiceProvider extends PackageServiceProvider
 {

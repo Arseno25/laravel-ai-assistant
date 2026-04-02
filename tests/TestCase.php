@@ -2,9 +2,9 @@
 
 namespace Arseno25\LaravelAiAssistant\Tests;
 
+use Arseno25\LaravelAiAssistant\LaravelAiAssistantServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Arseno25\LaravelAiAssistant\LaravelAiAssistantServiceProvider;
 
 class TestCase extends Orchestra
 {
