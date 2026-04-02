@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "arseno25/laravel-ai-assistant",
+    "description": "This is my package laravel-ai-assistant",
     "keywords": [
-        ":vendor_name",
+        "Arseno25",
         "laravel",
-        ":package_slug"
+        "laravel-ai-assistant"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/arseno25/laravel-ai-assistant",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Arseno25",
+            "email": "utomnestagumara@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Arseno25\\LaravelAiAssistant\\": "src/",
+            "Arseno25\\LaravelAiAssistant\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Arseno25\\LaravelAiAssistant\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Arseno25\\LaravelAiAssistant\\LaravelAiAssistantServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelAiAssistant": "Arseno25\\LaravelAiAssistant\\Facades\\LaravelAiAssistant"
             }
         }
     },
